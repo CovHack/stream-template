@@ -1,0 +1,13 @@
+@import '../../scss/colors.scss';
+
+.bottombar {
+    color: $white;
+    width: 100%;
+    font-size: 25px;
+}
+
+.event {
+    background-color: rgba(0, 0, 255, 0.5);
+    padding: 2.5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,47 @@
+@import './colors.scss';
+@import './fonts.scss';
+
+$theme-colors: (
+    primary: $color-primary,
+    secondary: $color-primary-dark,
+    success: $green,
+    info: $cyan,
+    warning: $yellow,
+    danger: $red,
+    light: $gray-100,
+    dark: $background,
+) !default;
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+$body-bg: $background !default;
+$body-color: $gray-700 !default;
+$inverse-bg: $gray-900 !default;
+$inverse-color: $gray-600 !default;
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: $primary;
+}
+
+.container {
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 100%;
+}
+
+.video-col {
+    padding: 0px;
+}
+
+.sidebar-col {
+    padding: 5px;
+}
+
+.bottombar-col {
+    padding: 0px;
+}
